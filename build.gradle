@@ -106,7 +106,7 @@ publishing {
             artifactId = 'GitPatcher'
             version = property("version")
 
-            artifact build
+            from components.java
         }
     }
 }
